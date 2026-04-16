@@ -10,6 +10,7 @@ import Events from './components/EventsPage';
 import EventDetail from './components/EventDetails'; // Import EventDetail component
 import ContactUs from "./components/ContactUs";
 import ScrollToTop from "./components/ScrollToTop";
+import Gallery from './components/Gallary';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/teams' element={<Teams />} />
           <Route exact path='/events' element={<Events />} />
+          <Route path='/gallery' element={<Gallery />} />
           
           {/* Dynamic route for event details */}
           <Route exact path='/events/:slug' element={<EventDetail />} />

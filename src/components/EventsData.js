@@ -285,7 +285,7 @@ const events = [
       conclusion:
         "TES 4.0 cemented its place as one of the most impactful entrepreneurship events in the Delhi NCR student circuit. From the opening ceremony at ABES Engineering College's auditorium to the final prize distribution, every moment was crafted with purpose — to inform, inspire, and ignite. As E-Cell ABESEC continues to grow, TES 4.0 stands as a testament to the power of community, curiosity, and the relentless entrepreneurial spirit. We look forward to making TES 5.0 even bigger, bolder, and more transformative.",
     },
-    image: keshav,
+    image: shrishti,
     images: [panel, shrishti, keshav],
   },
 ];
