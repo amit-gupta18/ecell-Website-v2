@@ -92,6 +92,13 @@ const Navbar = () => {
             Events
           </Link>
           <Link
+           to="/gallery"
+           className="text-11 block mt-4 lg:mt-0 text-white hover:text-[#ffde59] transition-colors duration-200"
+           onClick={closeNav}
+         >
+           Gallery
+         </Link>
+          <Link
             to="/contactus"
             className="text-11 block mt-4 lg:mt-0 text-white hover:text-[#ffde59] transition-colors duration-200"
             onClick={closeNav}
